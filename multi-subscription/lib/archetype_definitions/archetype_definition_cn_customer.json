@@ -1,0 +1,26 @@
+{
+    "cn_customer": {
+      "policy_assignments": ["Deny-Resource-Locations", "Deny-RSG-Locations"],
+      "policy_definitions": [],
+      "policy_set_definitions": [],
+      "role_definitions": [],
+      "archetype_config": {
+        "parameters": {
+          "Deny-Resource-Locations": {
+            "listOfAllowedLocations": [
+              "chinanorth3",
+              "chinaeast2"
+            ]
+          },
+          "Deny-RSG-Locations": {
+            "listOfAllowedLocations": [
+              "chinanorth3",
+              "chinaeast2"
+            ]
+          }      
+        },
+        "access_control": {}
+      }
+    }
+  }
+  
