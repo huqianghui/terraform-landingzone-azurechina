@@ -1,6 +1,6 @@
 # terraform-landingzone-azurechina
 
-因为一些built-in policy还没有发布到azure china cloud上，包括一些功能的确实，默认的terraform enterprise scale模块会出现错误。如下几个，还有其他的：
+因为一些built-in policy还没有发布到azure china cloud上，包括一些功能的缺失，默认的terraform enterprise scale模块会出现错误。如下几个，还有其他的：
 
 │ Error: creating/updating Policy Definition "Deploy-Budget": policy.DefinitionsClient#CreateOrUpdateAtManagementGroup: Failure responding to request: StatusCode=400 -- Original Error: autorest/azure: Service returned an error. Status=400 Code="InvalidPolicyRuleIfNotExistsDetails" Message="The policy definition 'Deploy-Budget' rule is invalid. The policy effect 'type' field references an invalid resource provider 'Microsoft.Consumption'."
 │ 
